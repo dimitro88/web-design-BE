@@ -1,0 +1,38 @@
+{
+  "name": "event-maker_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mykolakrys@bitbucket.org/lolcorporation613/em-be.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.2",
+    "nodemailer": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "password-hash": "^1.2.2",
+    "socket.io": "^2.2.0",
+    "socketio-jwt": "^4.5.0"
+  },
+  "author": "Mykola Krys, Dmytro Litvinchuk, Roman Kuzio, Sofia Tatchyn",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/lolcorporation613/em-be#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "1.15.3"
+  }
+}
